@@ -5,6 +5,8 @@
 #header {	
     text-align: center;
     background-color: #247BA0;
+    margin-left: 30px;
+    margin-top: 50px;
 }
 
 #foto1 {
@@ -22,6 +24,7 @@ ul {
     margin: 0;
     padding: 0;
 }
+
 
 li {
     float: left;
@@ -54,9 +57,24 @@ th, td {
     text-align: center;
     padding: 8px;
 }
-
-th {
+th   {
     background-color: #094074;
+    color: white;
+}
+
+
+#mbiemri  
+{
+    background-color: #87abce;
+    color: white;
+
+}
+
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+th:hover    {
+    background-color: #746d09;
     color: white;
 }
 
@@ -72,4 +90,26 @@ th {
 #foto2{
     width: 200px;
 height: 200px;
+margin-left: 50px;
+margin-top: 50px;
 }
+#foto2:hover{
+    width: 100px;
+height: 100px;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+#box{   
+    border: solid 2px black;
+    padding: 100px 100px 100px 100px;
+    margin-right: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: antiquewhite;
+    }
+    tr{
+    background-color: aquamarine;
+
+    }
